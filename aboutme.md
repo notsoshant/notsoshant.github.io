@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi! My name is Prashant Kumar. I am very bad at describing myself, so I still have not completed this section of the website. Here are some of the things I will quickly highlight about me:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- 2 years of experience performing Pentration Testing, Source Code Reviews and Network assessments
+- Offensive Security Certified Expert (OSCE)
+- Offensive Security Certified Professional (OSCP)
+- Acknowledgement from Microsoft, Oracle, HackerOne, Medium
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Quick ways of reaching me would be a DM on my [Twitter](https://twitter.com/notsoshant) or mailing at notsoshant [at] protonmail [dot] com
