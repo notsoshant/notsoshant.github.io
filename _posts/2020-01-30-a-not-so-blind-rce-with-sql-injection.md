@@ -88,7 +88,7 @@ What we can do maybe is run a command and redirect its output to a file, a file 
 
 Well...
 
-<div style="text-align:center;vertical-align:middle;width:60%;padding-bottom:20%;height:0;position:relative;"><iframe src="https://giphy.com/embed/26uf2JHNV0Tq3ugkE" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<div style="text-align:center;"><img src="https://media.giphy.com/media/26uf2JHNV0Tq3ugkE/giphy.gif"></div>
 
 We do not know the physical path of the website in this scenario. So we have to somehow read the file in some other way. Looking back at our good old cheat sheet, we do find a way! We can execute following queries to read a file:
 
