@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A small introduction to Process Explorer
+tags: [SysInternals]
 ---
 
 Process Explorer is a SysInternals utility that is pretty much advanced version of in-built Task Manager. It can be downloaded from Microsoft TechNet website from [here](https://technet.microsoft.com/en-us/sysinternals/processexplorer). This article is aimed to cover main features of this powerful tool in detail.

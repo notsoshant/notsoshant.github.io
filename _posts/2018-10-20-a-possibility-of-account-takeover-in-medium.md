@@ -2,6 +2,7 @@
 layout: post
 title: A possibility of Account Takeover in Medium
 ext-js: https://platform.twitter.com/widgets.js
+tags: [Web Security, Oauth, Bug Bounty]
 ---
 
 There are times when you discover something that is very common and ordinary which just blows your mind and you start thinking, “How come I didn’t knew this before!?”. I recently had that kind of a moment when I came to know that Twitter allows users to change their username. This immediately triggered a thought, “What if somewhere Twitter integration in a website is depending on Twitter username?”. I know this sounds crazy, but I thought this was worth a try.

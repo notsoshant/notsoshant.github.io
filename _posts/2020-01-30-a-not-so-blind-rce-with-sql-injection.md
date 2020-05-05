@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'A Not-So-Blind RCE with SQL Injection'
+tags: [Web Security, ASP.Net, Remote Code Execution]
 ---
 
 Once again, I'm back with another story of an interesting finding. This time I'll be explaining an SQL injection instance, but this was bit different. The application here is based on ASP.Net, is using MSSQL, supports stacked queries and the DB user is also `sysadmin`. Everything looks nice and perfect to execute `xp_cmdshell`. The only problem I faced is that I cannot get the output of queries stacked after the first query. And on top of that, the application is behind a firewall that is not allowing any access to outside world. So, I can execute OS commands, yes, but cannot see it's output. This becomes a kind of blind RCE. But, as the title says, this is a not-so-blind RCE.

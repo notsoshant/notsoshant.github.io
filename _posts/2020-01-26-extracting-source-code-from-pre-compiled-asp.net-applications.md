@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Extracting Source Code from Pre-Compiled ASP.Net applications'
+tags: [Web Security, ASP.Net]
 ---
 
 In a recent assignment, I found a Path Traversal vulnerability in an ASP.Net based web application. Naturally, the first thing I went after was the `web.config` file. Extracted the DB credentials from connection string, but the MSSQL port was not open. And did some more post-exploitation enumeration. What I also do with Path Traversal is try to read the source code for finding other vulnerabilities and things like checking if SQL queries are parameterized, the restrictions implemented on file uploads, etc.
