@@ -2,7 +2,7 @@ title: NotSoShant Diary
 description: A collection of my thoughts
 navbar-links:
   About Me: "aboutme"
-  Blogs:
+  Blogs: "#"
     # - Exploit Development: "exploitation"
     # - Web Security: "websecurity"
   Archives: "archives"
