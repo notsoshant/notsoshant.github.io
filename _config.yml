@@ -2,9 +2,9 @@ title: NotSoShant Diary
 description: A collection of my thoughts
 navbar-links:
   About Me: "aboutme"
-  Blogs: "#"
-    # - Exploit Development: "exploitation"
-    # - Web Security: "websecurity"
+  Blogs:
+    - Exploit Development: "exploitation"
+    - Web Security: "web-security"
   Archives: "archives"
 
 # Image to show in the navigation bar - image must be a square (width = height)
