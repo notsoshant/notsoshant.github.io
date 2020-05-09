@@ -706,7 +706,15 @@ pre {
 /* --- Social media sharing section --- */
 
 #social-share-section {
-  margin-bottom: 30px;
+  margin-right: 10%;
+  float: right;
+}
+
+#social-share-section a {
+  color: #404040;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #eeeeee;
 }
 
 /* --- Notification boxes --- */
