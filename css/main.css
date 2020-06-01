@@ -87,6 +87,10 @@ img {
   max-width: 100%;
 }
 
+code, kdb, pre, samp {
+  font-family: "Fira Code", Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
 .disqus-comments {
   margin-top: 30px;
 }
