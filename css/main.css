@@ -790,3 +790,22 @@ pre {
   font-style: italic;
   font-size: 16px;
 }
+
+/* Tools page */
+
+.tool-title {
+  color: #404040;
+}
+
+.tool-title:hover {
+  text-decoration: none;
+  color: {{ site.hover-col }};
+}
+
+#tool-links a {
+  color: #404040;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  margin-right: 20px;
+}

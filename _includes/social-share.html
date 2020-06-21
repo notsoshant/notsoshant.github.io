@@ -7,13 +7,13 @@
 {% endfor %}
 
 {% if any-share-links %}
-<section id = "social-share-section">
+<section id="social-share-section">
   <span class="sr-only">Share: </span>
 
   {% if site.share-links-active.twitter %}
   <!--- Share on Twitter -->
     <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
-      class="btn btn-social-icon btn-facebook" target="_blank" title="Share on Twitter">
+      class="btn btn-social-icon btn-twitter" target="_blank" title="Share on Twitter">
       <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
     </a>

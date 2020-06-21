@@ -1,0 +1,35 @@
+---
+layout: page
+title: Tools
+subtitle: All my tools and scripts and everything
+---
+
+{% for tool in site.tools %}
+
+<a href="{{ tool.url }}"><h2 class="tool-title">{{ tool.title }}</h2></a>
+
+<p>{{tool.description}}</p>
+
+<section id="tool-links">
+
+  {% if tool.download %}
+
+  <a href="{{ tool.download }}" target="_blank" class="btn btn-social-icon" title="Download">
+    <span class="fa fa-fw fa-download" aria-hidden="true"></span>
+  </a>
+  
+  {% endif %}
+
+  {% if tool.github %}
+
+  <a href="{{ tool.github }}" target="_blank" class="btn btn-social-icon" title="GitHub">
+    <span class="fa fa-fw fa-github" aria-hidden="true"></span>
+  </a>
+
+  {% endif %}
+
+</section>
+
+<hr />
+
+{% endfor %}
