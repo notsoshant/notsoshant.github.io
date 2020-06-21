@@ -590,40 +590,57 @@ footer .theme-by {
 
 /* --- Pager --- */
 
-.pager li a {
-  text-transform: uppercase;
+.pager-main {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.pager-main a {
+  margin: 5% 0;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
-  padding: 10px 5px;
-  background-color: #FFF;
-  border-radius: 0;
   color: #404040;
 }
-@media only screen and (min-width: 768px) {
-  .pager li a {
-    padding: 15px 25px;
-  }
-}
-.pager li a:hover,
-.pager li a:focus {
-  color: #FFF;
-  border: 1px solid {{ site.hover-col }};
-  background-color: {{ site.hover-col }};
+
+.pager-main a:hover {
+  text-decoration: none;
+  color: {{ site.hover-col }};
 }
 
-.pager {
-  margin: 10px 0 0;
+.pager-main .prev {
+  float: left;
+  text-align: right;
+  padding: 0 5%;
+  width: 50%
 }
 
-.pager.blog-pager {
-  margin-top: 0;
+.pager-main .next {
+  float: right;
+  padding: 0 5%;
+  width: 50%;
 }
 
-@media only screen and (min-width: 768px) {
-  .pager.blog-pager {
-    margin-top: 10px;
-  }
+.col-2 {
+  display: inline-block;
+  width: 80%;
+}
+
+.pager-arrow {
+  display: inline-block;
+  width: 20%;
+  font-size: 26px;
+}
+
+.next .pager-arrow {
+  float: right;
+  padding-left: 5px;
+}
+
+.prev .pager-arrow {
+  float: left;
+  padding-right: 5px;
 }
 
 /* --- Tables --- */
