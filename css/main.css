@@ -643,6 +643,34 @@ footer .theme-by {
   padding-right: 5px;
 }
 
+.index-pager li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 5px;
+  background-color: #FFF;
+  border-radius: 0;
+  color: #404040;
+}
+
+@media only screen and (min-width: 768px) {
+  .index-pager li a {
+    padding: 15px 25px;
+  }
+}
+
+.index-pager li a:hover,
+.index-pager li a:focus {
+  color: #FFF;
+  border: 1px solid {{ site.hover-col }};
+  background-color: {{ site.hover-col }};
+}
+
+.index-pager {
+  margin: 10px 0 0;
+}
+
 /* --- Tables --- */
 
 table {
