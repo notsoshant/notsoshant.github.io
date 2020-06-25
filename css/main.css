@@ -7,7 +7,7 @@ layout: null
 /* --- General --- */
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -125,7 +125,7 @@ code, kdb, pre, samp {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
   font-weight: bold;
   color: {{ site.navbar-text-col }};
 }
