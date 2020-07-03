@@ -3,7 +3,11 @@ layout: page
 title: Sploits
 description: Collection of exploits I've written
 github: https://github.com/notsoshant/sploits
+ext-js: https://buttons.github.io/buttons.js
 ---
+
+[Follow @notsoshant](https://github.com/notsoshant){:class="github-button" data-size="large" aria-label="Follow @notsoshant"}
+[notsoshant/sploits]({{ page.github }}){:class="github-button" data-icon="octicon-repo-forked" data-size="large" aria-label="View notsoshant/sploits on GitHub"}
 
 This page is just a collection of exploits I have written while practicing Windows Exploitation.
 
