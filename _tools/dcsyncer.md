@@ -11,7 +11,9 @@ ext-js: https://buttons.github.io/buttons.js
 [notsoshant/DCSyncer]({{ page.github }}){:class="github-button" data-icon="octicon-repo-forked" data-size="large" aria-label="View notsoshant/DCSyncer on GitHub"}
 [Download]({{ page.download }}){:class="github-button" data-icon="octicon-download" data-size="large" aria-label="Download notsoshant/DCSyncer on GitHub"}
 
-DCSyncer is a tool that performs DCSync operation. DCSync is a method to extract credentials, including that of KRBTGT, from a remote system by simulating behavior of a Domain Controller. This method is very powerful as you don't need any command execution _on_ the Domain Controller. You also don't need to be a Domain Admin to perform this operation, you need a user with _Replicating Directory Changes_ and _Replicating Directory Changes All_ permissions. For more details on DCSync attack and its prevention, read [Mimikatz DCSync Usage, Exploitation, and Detection](https://adsecurity.org/?p=1729){:target="_blank"}.
+DCSyncer is a tool that performs DCSync operation. DCSync is a method to extract credentials, including that of KRBTGT, from a remote system by simulating behavior of a Domain Controller. This method is very powerful as you don't need any command execution _on_ the Domain Controller. You also don't need to be a Domain Admin to perform this operation, you need a user with _Replicating Directory Changes_ and _Replicating Directory Changes All_ permissions. For more details on DCSync attack and its prevention, read [Mimikatz DCSync Usage, Exploitation, and Detection](https://adsecurity.org/?p=1729).
+
+Huge thanks to [Sumit Verma](https://www.linkedin.com/in/sumit-verma-125576129/) for coming up with the idea behind the tool!
 
 <p align="center"><img src="/img/tools/dcsyncer/dcsyncer-1.png" /></p>
 
@@ -19,7 +21,7 @@ DCSyncer is a tool that performs DCSync operation. DCSync is a method to extract
 
 ## Mimikatz and need for DCSyncer
 
-[Mimikatz](https://github.com/gentilkiwi/mimikatz){:target="_blank"} comes with capability to perform DCSync operation. [secretsdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py){:target="_blank"} can also perform this operation. Antivirus detection for these tools are strong. But AVs don't often do it right, most of the times they rely on some string or pattern matching that can be easily bypassed by recompiling the tool with few modifications.
+[Mimikatz](https://github.com/gentilkiwi/mimikatz) comes with capability to perform DCSync operation. [secretsdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py) can also perform this operation. Antivirus detection for these tools are strong. But AVs don't often do it right, most of the times they rely on some string or pattern matching that can be easily bypassed by recompiling the tool with few modifications.
 
 Idea behind this tool was to show that we can't entirely rely on AVs to keep us secure. This is an attempt to extract only the code piece relevant to DCSync from mimikatz's huge, feature-rich codebase. This tool, though extracted from mimikatz, tries to avoid any reference to it so that it can bypass some well known AVs.
 
