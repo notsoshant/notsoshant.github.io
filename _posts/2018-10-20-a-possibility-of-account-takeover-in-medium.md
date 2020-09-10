@@ -15,21 +15,21 @@ Here’s how it would look like:
 
 1. Login to Medium, go to Settings and link the account to Twitter:
 
-<p align="center"><img src="/img/blog/2019/acc-takeover-medium/0-LOrCFhQF9-KPALPg.png" /></p>
-<p align="center"><img src="/img/blog/2019/acc-takeover-medium/0-OCJnf_yOk3svme5V.png" /></p>
-<p align="center"><img src="/img/blog/2019/acc-takeover-medium/0-r6wd_CctVQD46aEP.png" /></p>
+![Image](/img/blog/2019/acc-takeover-medium/0-LOrCFhQF9-KPALPg.png){: .center-block :}
+![Image](/img/blog/2019/acc-takeover-medium/0-OCJnf_yOk3svme5V.png){: .center-block :}
+![Image](/img/blog/2019/acc-takeover-medium/0-r6wd_CctVQD46aEP.png){: .center-block :}
 
 2. Now let’s say this Twitter user changed his username to something else. I as an attacker will change my Twitter username to **notsoshant**.
 
-<p align="center"><img src="/img/blog/2019/acc-takeover-medium/0-NWC-EN-yYllWjkAn.png" /></p>
+![Image](/img/blog/2019/acc-takeover-medium/0-NWC-EN-yYllWjkAn.png){: .center-block :}
 
 3. Now go to Medium and choose the Sign In with Twitter option. By using attacker’s Twitter profile to log in, we can notice Medium actually logs in to victim’s Medium account.
 
-<p align="center"><img src="/img/blog/2019/acc-takeover-medium/0-1U6PGDNhRDvDO-2k.png" /></p>
+![Image](/img/blog/2019/acc-takeover-medium/0-1U6PGDNhRDvDO-2k.png){: .center-block :}
 
 As stupid this vulnerability may look like, this obviously shows implementing OAuth can go very wrong sometimes. I don’t prefer OAuth in general because if an OAuth provider gets compromised, all the connected accounts will get compromised automatically. A [recent Facebook vulnerability](https://newsroom.fb.com/news/2018/09/security-update/) allowed attackers to access token for millions of users. If you are logged in to any service through Facebook, that account was compromised too! So folks, always prefer a new account for each website and avoid OAuth! And experts recommend this too.
 
-<blockquote align="center" class="twitter-tweet">
+blockquote align="center" class="twitter-tweet">
     <p lang="en" dir="ltr">Yet another reason why password managers make so much sense: I *never* sign up to a service using social login, I create a new account, generate the password via <a href="https://twitter.com/1Password?ref_src=twsrc%5Etfw">@1Password</a> then store it there. Think of it as sand-boxing all your identities. <a href="https://t.co/MzdNzOJrPC">https://t.co/MzdNzOJrPC</a></p>
     &mdash; Troy Hunt (@troyhunt)
     <a href="https://twitter.com/troyhunt/status/1045854796471660550?ref_src=twsrc%5Etfw">September 29, 2018</a>

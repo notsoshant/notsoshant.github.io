@@ -12,15 +12,15 @@ I tried to read the source code this time too. I read the source for an `.aspx` 
 
 Pre-Compilation is an ASP.Net feature in which a website, when being published, can get all of its logical code (the CS files) 'compiled' into a binary (DLL file). So a website with files like this:
 
-<p align="center"><img src='/img/blog/2020/precompilation/1.png' /></p>
+![Image](/img/blog/2020/precompilation/1.png){: .center-block :}
 
 Will look like this after pre-compilation:
 
-<p align="center"><img src='/img/blog/2020/precompilation/2.png' /></p>
+![Image](/img/blog/2020/precompilation/2.png){: .center-block :}
 
 Where did all the CS files go? Into the DLL files in the `bin` directory:
 
-<p align="center"><img src='/img/blog/2020/precompilation/3.png' /></p>
+![Image](/img/blog/2020/precompilation/3.png){: .center-block :}
 
 You can read about Pre-Compilation in details from [Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/precompiling-your-website-cs).
 
@@ -30,15 +30,15 @@ So we know that the DLL files contains all the source code we want to read. Ques
 
 Let us consider the following example where we have a Path Traversal vulnerability:
 
-<p align="center"><img src='/img/blog/2020/precompilation/4.png' /></p>
+![Image](/img/blog/2020/precompilation/4.png){: .center-block :}
 
 Notice here that we don't have any `codebehind` parameter. But we can notice that the `inherits` parameter do mention the name of the DLL file. Once we have this name, we can download the DLL file too:
 
-<p align="center"><img src='/img/blog/2020/precompilation/5.png' /></p>
+![Image](/img/blog/2020/precompilation/5.png){: .center-block :}
 
 ## Reversing DLL to extract source code
 
 The last step here is to extract the source code from this DLL file. To do that, we can use a .Net decompiler like [JetBrains dotPeek](https://www.jetbrains.com/decompiler/). Once we open the file in dotPeek, we can easily get the source code:
 
-<p align="center"><img src='/img/blog/2020/precompilation/6.png' /></p>
+![Image](/img/blog/2020/precompilation/6.png){: .center-block :}
 

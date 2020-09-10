@@ -10,7 +10,7 @@ Process Explorer is a SysInternals utility that is pretty much advanced version 
 
 The main window of Process Explorer looks like this:
 
-<p align="center"><img src="/img/blog/2019/procexp/0-VPrzVZ3yZtHiUNMd" /></p>
+![Image](/img/blog/2019/procexp/0-VPrzVZ3yZtHiUNMd){: .center-block :}
 
 The very first thing to notice about this process tree is that it looks somewhat similar to Task Manager’s Details tab, but much more colourful. The Process column of the window lists all the running processes in a tree structure demonstrating the parent-child relationship of the processes. For example, all the **svchost.exe** are child of **services.exe**. It also shows the icons of all the running processes. If you want to sort the list alphabetical order of process names (like in Task Manager) then simply click on Process column title. Click again to reset the tree structure back.
 
@@ -33,7 +33,7 @@ Many processes are highlighted in different colours. Here is what they mean:
 
 The tooltip that comes on hovering over process names contains lot of information about the process.
 
-<p align="center"><img src="/img/blog/2019/procexp/1-57VRE-Qbfo-0DLVt-Bd69w.png" /></p>
+![Image](/img/blog/2019/procexp/1-57VRE-Qbfo-0DLVt-Bd69w.png){: .center-block :}
 
 The above example shows tooltip of **svchost.exe** process. Tooltip contains the Command Line used to start the process and path to the image. It also shows some other process specific details like the services hosted by the process or package name for Store apps or WMI providers for WMI process.
 
@@ -41,7 +41,7 @@ The above example shows tooltip of **svchost.exe** process. Tooltip contains the
 
 Process Explorer can display so many details in this list of processes that all the columns were divided in groups. The columns to be displayed can be selected by right clicking on any column title and selecting ‘Select Columns’. A dialog box looking like this will appear.
 
-<p align="center"><img src="/img/blog/2019/procexp/0-lbo4GaeEh4Vju112" /></p>
+![Image](/img/blog/2019/procexp/0-lbo4GaeEh4Vju112){: .center-block :}
 
 Select the columns to be displayed and click OK.
 
@@ -49,33 +49,33 @@ Select the columns to be displayed and click OK.
 
 One of the very powerful feature of Process Explorer is its Lower Pane. The Lower Pane can be used to view Handles and DLLs linked to a process. To view Lower Pane, move to View menu and select ‘Show Lower Pane’ option. Right below it, their is an option of selecting whether Lower Pane will show Handles or DLLs.
 
-<p align="center"><img src="/img/blog/2019/procexp/1-nKa_0hoZbwvg5vBlKUaaDw.png" /></p>
-<p align="center"><img src="/img/blog/2019/procexp/1-TWcEwQNN6tX9pJnVcEzl9Q.png" /></p>
-<p align="center"><img src="/img/blog/2019/procexp/1-loVl-et4WpioXM0XZdqZgA.png" /></p>
+![Image](/img/blog/2019/procexp/1-nKa_0hoZbwvg5vBlKUaaDw.png){: .center-block :}
+![Image](/img/blog/2019/procexp/1-TWcEwQNN6tX9pJnVcEzl9Q.png){: .center-block :}
+![Image](/img/blog/2019/procexp/1-loVl-et4WpioXM0XZdqZgA.png){: .center-block :}
 
 ## Process Properties
 
 Properties window of a process in Process Explorer contains very rich information about the process. This information includes basic information like name, version, path, autostart location, DEP/ASLR status but also some pretty cool stuff like open threads (with thread stacks), security context, strings for both image and memory, environment variables and lot more.
 
-<p align="center"><img src="/img/blog/2019/procexp/1-FnDV5v_ujwnL-8_n_xBfxg.png" /></p>
-<p align="center"><img src="/img/blog/2019/procexp/1-5Q7frlnarYUKrbpa26Xsow.png" /></p>
-<p align="center"><img src="/img/blog/2019/procexp/1-bM7xQNlUlAEz_Onv0ExXgw.png" /></p>
+![Image](/img/blog/2019/procexp/1-FnDV5v_ujwnL-8_n_xBfxg.png){: .center-block :}
+![Image](/img/blog/2019/procexp/1-5Q7frlnarYUKrbpa26Xsow.png){: .center-block :}
+![Image](/img/blog/2019/procexp/1-bM7xQNlUlAEz_Onv0ExXgw.png){: .center-block :}
 
 ## Verifying Images and VirusTotal scan
 
 You can verify Image Signatures automatically when Process Explorer starts. To do this, go to **Options –> Verify Image Signatures**.
 
-<p align="center"><img src="/img/blog/2019/procexp/0-GESzYL6sfDixuK4L" /></p>
+![Image](/img/blog/2019/procexp/0-GESzYL6sfDixuK4L){: .center-block :}
 
 This option comes handy when you have to quickly analyse whether the running processes are legitimate or not. Also, Process Explorer now comes with option to automatically scan images too. Go to **Options –> VirusTotal.com –> Check VirusTotal.com** to submit hash of all the running executables to VirusTotal’s engine and fetch the results. You can click on **Submit Unknown Executables** in the same sub-menu to upload and scan the image if its hash is not already available in VirusTotal’s database.
 
 ## Tray Icons
 
-<p align="center"><img src="/img/blog/2019/procexp/0-ep-f_MgzNSlhhPxP" /></p>
+![Image](/img/blog/2019/procexp/0-ep-f_MgzNSlhhPxP){: .center-block :}
 
 Process Explorer provides many Tray icons as opposed to Task Manager that shows only CPU History (although tooltip shows all four performance metrics). You can enable each Tray icon by selecting them in **Options –> Tray Icons**. These tray icons show some icon-specific details in tooltip. For example, CPU History Tray icon shows CPU usage percentage as well as process consuming highest CPU, as shown in image below.
 
-<p align="center"><img src="/img/blog/2019/procexp/0-n6z7y82IQKqNbZRo" /></p>
+![Image](/img/blog/2019/procexp/0-n6z7y82IQKqNbZRo){: .center-block :}
 
 ## Always on Top
 

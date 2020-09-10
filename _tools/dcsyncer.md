@@ -15,9 +15,9 @@ DCSyncer is a tool that performs DCSync operation. DCSync is a method to extract
 
 Huge thanks to [Sumit Verma](https://www.linkedin.com/in/sumit-verma-125576129/) for coming up with the idea behind the tool!
 
-<p align="center"><img src="/img/tools/dcsyncer/dcsyncer-1.png" /></p>
+![Image](/img/tools/dcsyncer/dcsyncer-1.png){: .center-block :}
 
-<p align="center"><img src="/img/tools/dcsyncer/dcsyncer-2.png" /></p>
+![Image](/img/tools/dcsyncer/dcsyncer-2.png){: .center-block :}
 
 ## Mimikatz and need for DCSyncer
 
