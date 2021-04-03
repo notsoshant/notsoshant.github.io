@@ -1,12 +1,12 @@
 title: NotSoShant Diary
 description: A collection of my thoughts
 navbar-links:
-  About Me: "aboutme"
   Blogs:
     - Exploit Development: "exploitation/"
     - Web Security: "web-security/"
-  Archives: "archives"
   Tools: "tools"
+  Archives: "archives"
+  About Me: "aboutme"
 
 collections:
   tools:
@@ -166,6 +166,7 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
+      comments: true  # add comments to all pages
       show-avatar: true
 
 # Use tags index page and make tags on each post clickable
