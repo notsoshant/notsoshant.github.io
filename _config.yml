@@ -164,9 +164,16 @@ defaults:
   -
     scope:
       path: "" # all files
+      type: "tools"
     values:
       layout: "page"
-      comments: true  # add comments to all pages
+      comments: true  # add comments to all tools
+      show-avatar: true
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
       show-avatar: true
 
 # Use tags index page and make tags on each post clickable
