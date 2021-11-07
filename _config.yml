@@ -4,6 +4,7 @@ navbar-links:
   Blogs:
     - Exploit Development: "exploitation/"
     - Web Security: "web-security/"
+    - Active Directory: "active-directory/"
   Tools: "tools"
   Archives: "archives"
   About Me: "aboutme"
