@@ -6,6 +6,7 @@ navbar-links:
     - Web Security: "web-security/"
     - Active Directory: "active-directory/"
   Tools: "tools"
+  Red Team Labs: "rtlabs"
   Archives: "archives"
   About Me: "aboutme"
 
