@@ -2,7 +2,7 @@
 layout: page
 title: Red Teaming Labs
 description: Automated Active Directory created as a practice ground for various attacks. This lab is created using Vagrant and some PowerShell scripts.
-github: https://github.com/notsoshant/DCSyncer
+github: https://github.com/notsoshant/rtlabs
 ext-js: https://buttons.github.io/buttons.js
 ---
 
